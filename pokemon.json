@@ -1,0 +1,23 @@
+{
+    "name": "Pikachu",
+    "type": "Electric",
+    "level": 25,
+    "moves": [
+        {
+        "name": "Thunderbolt",
+        "power": 90,
+        "accuracy": 100
+        },
+        {
+        "name": "Quick Attack",
+        "power": 40,
+        "accuracy": 100
+        }
+    ],
+    "evolution": {
+        "next_evolution": {
+        "name": "Raichu",
+        "level": 35
+        }
+    }
+}
