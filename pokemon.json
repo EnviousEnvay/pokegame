@@ -1,23 +1,23 @@
 {
-    "name": "Pikachu",
-    "type": "Electric",
-    "level": 25,
+    "name": "Lechonk",
+    "type": "Normal",
+    "level": 10,
     "moves": [
         {
-        "name": "Thunderbolt",
-        "power": 90,
-        "accuracy": 100
+            "name": "Tackle",
+            "power": 40,
+            "accuracy": 100
         },
         {
-        "name": "Quick Attack",
-        "power": 40,
-        "accuracy": 100
+            "name": "Tail Whip",
+            "power": 0,
+            "accuracy": 100
         }
     ],
     "evolution": {
         "next_evolution": {
-        "name": "Raichu",
-        "level": 35
+            "name": "Oinkologne",
+            "level": 18
         }
     }
 }
