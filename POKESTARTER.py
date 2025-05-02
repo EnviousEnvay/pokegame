@@ -1,4 +1,3 @@
-import random
 import json
 
 professor_oaks_pokemon = ["Charmander", "Squirtle", "Bulbasaur"]
