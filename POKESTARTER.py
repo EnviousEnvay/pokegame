@@ -1,5 +1,5 @@
-import random
 import json
+from constants import action_dicts
 
 professor_oaks_pokemon = ["Charmander", "Squirtle", "Bulbasaur"]
 
@@ -46,18 +46,10 @@ def choose_pokemon():
 
 def encounter_action():
     """Handle the user's action during an encounter."""
+    
     action = input("What do you want to do? (fight, run, catch, delete save, exit): ").lower()
-    if action == "fight":
-        print("You chose to fight!")
-    elif action == "run":
-        print("You chose to run!")
-    elif action == "catch":
-        print("You chose to catch!")
-    elif action == "delete save":
-        delete_save()
-    elif action == "exit":
-        print("Exiting the game.")
-        exit()
+    if action in action_dicts:
+        action_dicts[action]()
     else:
         print("Invalid choice. Please choose again.")
         encounter_action()
