@@ -20,4 +20,26 @@
         "level": 35
         }
     }
+}{
+    "name": "Lechonk",
+    "type": "Normal",
+    "level": 10,
+    "moves": [
+        {
+            "name": "Tackle",
+            "power": 40,
+            "accuracy": 100
+        },
+        {
+            "name": "Tail Whip",
+            "power": 0,
+            "accuracy": 100
+        }
+    ],
+    "evolution": {
+        "next_evolution": {
+            "name": "Oinkologne",
+            "level": 18
+        }
+    }
 }
